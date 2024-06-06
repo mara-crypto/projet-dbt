@@ -1,0 +1,243 @@
+[0m09:28:55.927561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c10b26370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c0d9aceb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c0d9c3a90>]}
+
+
+============================== 09:28:55.929968 | a3f3f11a-29b7-482e-a023-1c9474641d5f ==============================
+[0m09:28:55.929968 [info ] [MainThread]: Running with dbt=1.6.1
+[0m09:28:55.930437 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/dioptrtit/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init projet', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:28:55.930843 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/dioptrtit/.dbt')}
+[0m09:28:55.931159 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m09:28:55.931896 [debug] [MainThread]: Starter project path: /home/dioptrtit/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m09:28:55.933214 [info ] [MainThread]: 
+Your new dbt project "projet" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:28:55.933581 [info ] [MainThread]: Setting up your profile.
+[0m09:31:25.508647 [info ] [MainThread]: Profile projet written to /home/dioptrtit/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m09:31:25.509355 [debug] [MainThread]: Command `dbt init` succeeded at 09:31:25.509249 after 149.59 seconds
+[0m09:31:25.509721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c10b26370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c0d3ab550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3c0d3b4400>]}
+[0m09:31:25.510134 [debug] [MainThread]: Flushing usage events
+[0m09:56:29.754157 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f94861f7370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f94830622e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9483062250>]}
+
+
+============================== 09:56:29.756555 | 43a133b7-0756-4556-bb5d-3bf0ff9fbc56 ==============================
+[0m09:56:29.756555 [info ] [MainThread]: Running with dbt=1.6.1
+[0m09:56:29.757119 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dioptrtit/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m09:56:29.757678 [info ] [MainThread]: dbt version: 1.6.1
+[0m09:56:29.757984 [info ] [MainThread]: python version: 3.9.16
+[0m09:56:29.758297 [info ] [MainThread]: python path: /home/dioptrtit/anaconda3/bin/python
+[0m09:56:29.758591 [info ] [MainThread]: os info: Linux-6.2.0-31-generic-x86_64-with-glibc2.35
+[0m09:56:29.786618 [info ] [MainThread]: Using profiles dir at /home/dioptrtit/.dbt
+[0m09:56:29.787098 [info ] [MainThread]: Using profiles.yml file at /home/dioptrtit/.dbt/profiles.yml
+[0m09:56:29.787452 [info ] [MainThread]: Using dbt_project.yml file at /home/dioptrtit/Bureau/projet-dbt/dbt_project.yml
+[0m09:56:29.787918 [info ] [MainThread]: adapter type: postgres
+[0m09:56:29.788253 [info ] [MainThread]: adapter version: 1.6.1
+[0m09:56:29.788594 [info ] [MainThread]: Configuration:
+[0m09:56:29.788887 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:56:29.789190 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:56:29.789492 [info ] [MainThread]: Required dependencies:
+[0m09:56:29.789840 [debug] [MainThread]: Executing "git --help"
+[0m09:56:29.805264 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [--help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:56:29.805908 [debug] [MainThread]: STDERR: "b''"
+[0m09:56:29.806275 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:56:29.806619 [info ] [MainThread]: Connection:
+[0m09:56:29.807006 [info ] [MainThread]:   host: localhost
+[0m09:56:29.807319 [info ] [MainThread]:   port: 5432
+[0m09:56:29.807620 [info ] [MainThread]:   user: modou
+[0m09:56:29.807921 [info ] [MainThread]:   database: dbt_projet
+[0m09:56:29.808226 [info ] [MainThread]:   schema: public
+[0m09:56:29.808527 [info ] [MainThread]:   connect_timeout: 10
+[0m09:56:29.808808 [info ] [MainThread]:   role: None
+[0m09:56:29.809085 [info ] [MainThread]:   search_path: None
+[0m09:56:29.809375 [info ] [MainThread]:   keepalives_idle: 0
+[0m09:56:29.809676 [info ] [MainThread]:   sslmode: None
+[0m09:56:29.809954 [info ] [MainThread]:   sslcert: None
+[0m09:56:29.810250 [info ] [MainThread]:   sslkey: None
+[0m09:56:29.810546 [info ] [MainThread]:   sslrootcert: None
+[0m09:56:29.810842 [info ] [MainThread]:   application_name: dbt
+[0m09:56:29.811136 [info ] [MainThread]:   retries: 1
+[0m09:56:29.811562 [info ] [MainThread]: Registered adapter: postgres=1.6.1
+[0m09:56:29.812156 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m09:56:29.812527 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:56:29.812840 [debug] [MainThread]: On debug: select 1 as id
+[0m09:56:29.813170 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:56:29.820146 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  la base de données « dbt_projet » n'existe pas
+
+[0m09:56:29.824939 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m09:56:29.825390 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m09:56:29.825799 [debug] [MainThread]: On debug: No close available on handle
+[0m09:56:29.826154 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m09:56:29.826519 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:56:29.826864 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/dioptrtit/Bureau/projet-dbt/dbt_project.yml> not found
+
+[0m09:56:29.827654 [debug] [MainThread]: Command `dbt debug` failed at 09:56:29.827519 after 0.08 seconds
+[0m09:56:29.828068 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:56:29.828485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f94861f7370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9482d558e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9482d43430>]}
+[0m09:56:29.828907 [debug] [MainThread]: Flushing usage events
+[0m09:58:09.418450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba17e55370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba14ca2310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba14ca2340>]}
+
+
+============================== 09:58:09.420816 | 5db5f723-62bf-40f0-8968-ac4692537828 ==============================
+[0m09:58:09.420816 [info ] [MainThread]: Running with dbt=1.6.1
+[0m09:58:09.421456 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/dioptrtit/.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m09:58:09.421996 [info ] [MainThread]: dbt version: 1.6.1
+[0m09:58:09.422323 [info ] [MainThread]: python version: 3.9.16
+[0m09:58:09.422622 [info ] [MainThread]: python path: /home/dioptrtit/anaconda3/bin/python
+[0m09:58:09.422919 [info ] [MainThread]: os info: Linux-6.2.0-31-generic-x86_64-with-glibc2.35
+[0m09:58:09.450488 [info ] [MainThread]: Using profiles dir at /home/dioptrtit/.dbt
+[0m09:58:09.450934 [info ] [MainThread]: Using profiles.yml file at /home/dioptrtit/.dbt/profiles.yml
+[0m09:58:09.451274 [info ] [MainThread]: Using dbt_project.yml file at /home/dioptrtit/Bureau/projet-dbt/dbt_project.yml
+[0m09:58:09.451699 [info ] [MainThread]: adapter type: postgres
+[0m09:58:09.452013 [info ] [MainThread]: adapter version: 1.6.1
+[0m09:58:09.452341 [info ] [MainThread]: Configuration:
+[0m09:58:09.452623 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:58:09.452904 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:58:09.453210 [info ] [MainThread]: Required dependencies:
+[0m09:58:09.453526 [debug] [MainThread]: Executing "git --help"
+[0m09:58:09.457018 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [--help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:58:09.457597 [debug] [MainThread]: STDERR: "b''"
+[0m09:58:09.457934 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:58:09.458260 [info ] [MainThread]: Connection:
+[0m09:58:09.458594 [info ] [MainThread]:   host: localhost
+[0m09:58:09.458891 [info ] [MainThread]:   port: 5432
+[0m09:58:09.459179 [info ] [MainThread]:   user: modou
+[0m09:58:09.459460 [info ] [MainThread]:   database: dbt_projet
+[0m09:58:09.459741 [info ] [MainThread]:   schema: public
+[0m09:58:09.460024 [info ] [MainThread]:   connect_timeout: 10
+[0m09:58:09.460307 [info ] [MainThread]:   role: None
+[0m09:58:09.460604 [info ] [MainThread]:   search_path: None
+[0m09:58:09.460885 [info ] [MainThread]:   keepalives_idle: 0
+[0m09:58:09.461164 [info ] [MainThread]:   sslmode: None
+[0m09:58:09.461440 [info ] [MainThread]:   sslcert: None
+[0m09:58:09.461717 [info ] [MainThread]:   sslkey: None
+[0m09:58:09.461994 [info ] [MainThread]:   sslrootcert: None
+[0m09:58:09.462272 [info ] [MainThread]:   application_name: dbt
+[0m09:58:09.462552 [info ] [MainThread]:   retries: 1
+[0m09:58:09.462950 [info ] [MainThread]: Registered adapter: postgres=1.6.1
+[0m09:58:09.463749 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m09:58:09.464198 [debug] [MainThread]: Using postgres connection "debug"
+[0m09:58:09.464556 [debug] [MainThread]: On debug: select 1 as id
+[0m09:58:09.464874 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:58:09.471711 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m09:58:09.472684 [debug] [MainThread]: On debug: Close
+[0m09:58:09.473080 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m09:58:09.473435 [info ] [MainThread]: [31m1 check failed:[0m
+[0m09:58:09.473763 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/dioptrtit/Bureau/projet-dbt/dbt_project.yml> not found
+
+[0m09:58:09.474311 [debug] [MainThread]: Command `dbt debug` failed at 09:58:09.474226 after 0.06 seconds
+[0m09:58:09.474699 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:58:09.475066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba17e55370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba1498e8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fba1498ec40>]}
+[0m09:58:09.475493 [debug] [MainThread]: Flushing usage events
+[0m09:59:21.078290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f513cd50370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5139ba22e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5139ba2340>]}
+
+
+============================== 09:59:21.080570 | 47894336-ab01-4f47-80be-7169f2e122c5 ==============================
+[0m09:59:21.080570 [info ] [MainThread]: Running with dbt=1.6.1
+[0m09:59:21.081116 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dioptrtit/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:59:21.081644 [info ] [MainThread]: dbt version: 1.6.1
+[0m09:59:21.081970 [info ] [MainThread]: python version: 3.9.16
+[0m09:59:21.082287 [info ] [MainThread]: python path: /home/dioptrtit/anaconda3/bin/python
+[0m09:59:21.082576 [info ] [MainThread]: os info: Linux-6.2.0-31-generic-x86_64-with-glibc2.35
+[0m09:59:21.108363 [info ] [MainThread]: Using profiles dir at /home/dioptrtit/.dbt
+[0m09:59:21.108895 [info ] [MainThread]: Using profiles.yml file at /home/dioptrtit/.dbt/profiles.yml
+[0m09:59:21.109226 [info ] [MainThread]: Using dbt_project.yml file at /home/dioptrtit/Bureau/projet-dbt/dbt_project.yml
+[0m09:59:21.109536 [info ] [MainThread]: Configuration:
+[0m09:59:21.109847 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m09:59:21.110130 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:59:21.110420 [info ] [MainThread]: Required dependencies:
+[0m09:59:21.110766 [debug] [MainThread]: Executing "git --help"
+[0m09:59:21.114431 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [--help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m09:59:21.115045 [debug] [MainThread]: STDERR: "b''"
+[0m09:59:21.115375 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:59:21.115699 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m09:59:21.116024 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m09:59:21.116337 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "projet", target "dev" invalid: 12345 is not of type 'string'
+
+
+[0m09:59:21.116630 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/dioptrtit/Bureau/projet-dbt/dbt_project.yml> not found
+
+[0m09:59:21.117184 [debug] [MainThread]: Command `dbt debug` failed at 09:59:21.117093 after 0.04 seconds
+[0m09:59:21.117604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f513cd50370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5139b566a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f51395a3670>]}
+[0m09:59:21.118026 [debug] [MainThread]: Flushing usage events
+[0m10:01:09.496291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97dad58100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97d7ba2280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97d7ba22e0>]}
+
+
+============================== 10:01:09.498580 | 6bb70b71-34c8-42dd-af23-faa06c68ff09 ==============================
+[0m10:01:09.498580 [info ] [MainThread]: Running with dbt=1.6.1
+[0m10:01:09.499310 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/dioptrtit/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:01:09.500019 [info ] [MainThread]: dbt version: 1.6.1
+[0m10:01:09.500410 [info ] [MainThread]: python version: 3.9.16
+[0m10:01:09.500713 [info ] [MainThread]: python path: /home/dioptrtit/anaconda3/bin/python
+[0m10:01:09.500998 [info ] [MainThread]: os info: Linux-6.2.0-31-generic-x86_64-with-glibc2.35
+[0m10:01:09.528754 [info ] [MainThread]: Using profiles dir at /home/dioptrtit/.dbt
+[0m10:01:09.529206 [info ] [MainThread]: Using profiles.yml file at /home/dioptrtit/.dbt/profiles.yml
+[0m10:01:09.529518 [info ] [MainThread]: Using dbt_project.yml file at /home/dioptrtit/Bureau/projet-dbt/dbt_project.yml
+[0m10:01:09.529968 [info ] [MainThread]: adapter type: postgres
+[0m10:01:09.530300 [info ] [MainThread]: adapter version: 1.6.1
+[0m10:01:09.530622 [info ] [MainThread]: Configuration:
+[0m10:01:09.530917 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m10:01:09.531206 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m10:01:09.531489 [info ] [MainThread]: Required dependencies:
+[0m10:01:09.531809 [debug] [MainThread]: Executing "git --help"
+[0m10:01:09.536021 [debug] [MainThread]: STDOUT: "b"usage : git [--version] [--help] [-C <chemin>] [-c <nom>=<valeur>]\n           [--exec-path[=<chemin>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<chemin>] [--work-tree=<chemin>] [--namespace=<nom>]\n           [--super-prefix=<chemin>] [--config-env=<nom>=<variable-d-environnement>]\n           <commande> [<args>]\n\nCi-dessous les commandes Git habituelles dans diverses situations\xc2\xa0:\n\nd\xc3\xa9marrer une zone de travail (voir aussi\xc2\xa0: git help tutorial)\n   clone     Cloner un d\xc3\xa9p\xc3\xb4t dans un nouveau r\xc3\xa9pertoire\n   init      Cr\xc3\xa9er un d\xc3\xa9p\xc3\xb4t Git vide ou r\xc3\xa9initialiser un existant\n\ntravailler sur la modification actuelle (voir aussi\xc2\xa0: git help revisions)\n   add       Ajouter le contenu de fichiers dans l'index\n   mv        D\xc3\xa9placer ou renommer un fichier, un r\xc3\xa9pertoire, ou un lien symbolique\n   restore   Restaurer les fichiers l'arbre de travail\n   rm        Supprimer des fichiers de la copie de travail et de l'index\n\nexaminer l'historique et l'\xc3\xa9tat (voir aussi\xc2\xa0: git help revisions)\n   bisect    Trouver par recherche binaire la modification qui a introduit un bogue\n   diff      Afficher les changements entre les validations, entre validation et copie de travail, etc\n   grep      Afficher les lignes correspondant \xc3\xa0 un motif\n   log       Afficher l'historique des validations\n   show      Afficher diff\xc3\xa9rents types d'objets\n   status    Afficher l'\xc3\xa9tat de la copie de travail\n\nagrandir, marquer et modifier votre historique\n   branch    Lister, cr\xc3\xa9er ou supprimer des branches\n   commit    Enregistrer les modifications dans le d\xc3\xa9p\xc3\xb4t\n   merge     Fusionner deux ou plusieurs historiques de d\xc3\xa9veloppement ensemble\n   rebase    R\xc3\xa9application des commits sur le sommet de l'autre base\n   reset     R\xc3\xa9initialiser la HEAD courante \xc3\xa0 l'\xc3\xa9tat sp\xc3\xa9cifi\xc3\xa9\n   switch    Basculer de branche\n   tag       Cr\xc3\xa9er, lister, supprimer ou v\xc3\xa9rifier un objet d'\xc3\xa9tiquette sign\xc3\xa9 avec GPG\n\ncollaborer (voir aussi\xc2\xa0: git help workflows)\n   fetch     T\xc3\xa9l\xc3\xa9charger les objets et r\xc3\xa9f\xc3\xa9rences depuis un autre d\xc3\xa9p\xc3\xb4t\n   pull      Rapatrier et int\xc3\xa9grer un autre d\xc3\xa9p\xc3\xb4t ou une branche locale\n   push      Mettre \xc3\xa0 jour les r\xc3\xa9f\xc3\xa9rences distantes ainsi que les objets associ\xc3\xa9s\n\n'git help -a' et 'git help -g' listent les sous-commandes disponibles et\nquelques concepts. Voir 'git help <commande>' ou 'git help <concept>'\npour en lire plus \xc3\xa0 propos d'une commande sp\xc3\xa9cifique ou d'un concept.\nVoir 'git help git' pour un survol du syst\xc3\xa8me.\n""
+[0m10:01:09.536783 [debug] [MainThread]: STDERR: "b''"
+[0m10:01:09.537189 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m10:01:09.537530 [info ] [MainThread]: Connection:
+[0m10:01:09.537910 [info ] [MainThread]:   host: localhost
+[0m10:01:09.538237 [info ] [MainThread]:   port: 5432
+[0m10:01:09.538538 [info ] [MainThread]:   user: modou
+[0m10:01:09.538842 [info ] [MainThread]:   database: dbt_projet
+[0m10:01:09.539130 [info ] [MainThread]:   schema: public
+[0m10:01:09.539428 [info ] [MainThread]:   connect_timeout: 10
+[0m10:01:09.539720 [info ] [MainThread]:   role: None
+[0m10:01:09.540005 [info ] [MainThread]:   search_path: None
+[0m10:01:09.540290 [info ] [MainThread]:   keepalives_idle: 0
+[0m10:01:09.540567 [info ] [MainThread]:   sslmode: None
+[0m10:01:09.540868 [info ] [MainThread]:   sslcert: None
+[0m10:01:09.541161 [info ] [MainThread]:   sslkey: None
+[0m10:01:09.541446 [info ] [MainThread]:   sslrootcert: None
+[0m10:01:09.541731 [info ] [MainThread]:   application_name: dbt
+[0m10:01:09.542019 [info ] [MainThread]:   retries: 1
+[0m10:01:09.542440 [info ] [MainThread]: Registered adapter: postgres=1.6.1
+[0m10:01:09.543028 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m10:01:09.543399 [debug] [MainThread]: Using postgres connection "debug"
+[0m10:01:09.543721 [debug] [MainThread]: On debug: select 1 as id
+[0m10:01:09.544033 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m10:01:09.550549 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m10:01:09.551545 [debug] [MainThread]: On debug: Close
+[0m10:01:09.551962 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m10:01:09.552332 [info ] [MainThread]: [31m1 check failed:[0m
+[0m10:01:09.552643 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/dioptrtit/Bureau/projet-dbt/dbt_project.yml> not found
+
+[0m10:01:09.553255 [debug] [MainThread]: Command `dbt debug` failed at 10:01:09.553166 after 0.06 seconds
+[0m10:01:09.553628 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m10:01:09.554011 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97dad58100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97d7574c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97d7574910>]}
+[0m10:01:09.554409 [debug] [MainThread]: Flushing usage events
